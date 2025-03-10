@@ -1,10 +1,9 @@
-package com.infinity.commerce.logging_service.controller;
+package com.infinity.commerce.smart_vyapar.controller;
 
-import com.infinity.commerce.logging_service.entity.InventoryTransaction;
-import com.infinity.commerce.logging_service.service.LoggingService;
+import com.infinity.commerce.smart_vyapar.entity.InventoryTransaction;
+import com.infinity.commerce.smart_vyapar.service.LoggingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

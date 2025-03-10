@@ -1,4 +1,4 @@
-package com.infinity.commerce.logging_service;
+package com.infinity.commerce.smart_vyapar;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,13 +1,12 @@
-package com.infinity.commerce.logging_service.kafka;
+package com.infinity.commerce.smart_vyapar.kafka;
 
 
-import com.infinity.commerce.logging_service.enums.TransactionStatus;
-import com.infinity.commerce.logging_service.enums.TransactionType;
+import com.infinity.commerce.smart_vyapar.enums.TransactionStatus;
+import com.infinity.commerce.smart_vyapar.enums.TransactionType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
-@AllArgsConstructor
 public class TransactionEvent {
 
     private Long productId;
